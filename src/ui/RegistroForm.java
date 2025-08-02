@@ -59,7 +59,7 @@ public class RegistroForm extends JFrame {
                 nuevoUsuario.setNombre(nombre);
                 nuevoUsuario.setCorreo(correo);
                 nuevoUsuario.setContrasena(contrasena);
-                nuevoUsuario.setFotoPerfil("default_foto.jpg");
+                nuevoUsuario.setFotoPerfil("https://yt3.googleusercontent.com/P1HN1TEmdSyQa_sxDt1Az-o2oUVz-N3ivnykzw2Ah-alUHKXt5FeUs75Y4B1aKz4wRBD848XpA=s900-c-k-c0x00ffffff-no-rj");
 
                 boolean exito = UsuarioDAO.insertarUsuario(nuevoUsuario);
                 if (exito) {
